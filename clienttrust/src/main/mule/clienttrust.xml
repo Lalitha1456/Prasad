@@ -20,6 +20,7 @@ http://www.mulesoft.org/schema/mule/tls http://www.mulesoft.org/schema/mule/tls/
 		<logger level="INFO" doc:name="start" doc:id="6adaf151-aa3a-42d7-9c23-c5daf28d44bb" message="start client flow"/>
 		<http:request method="GET" doc:name="Request" doc:id="2db0567f-4368-4c93-8270-c0a5263db1af" config-ref="HTTP_Request_configuration" path="/onewayssl"/>
 		<logger level="INFO" doc:name="End" doc:id="4c4b8488-f4bf-4560-82a8-83afededea8d" message="End client flow"/>
+		<logger level="INFO" doc:name="NotEnd" doc:id="4c4b8488-f4bf-4560-82a8-83afededea8d" message="End client flow"/>
 		
 	</flow>
 </mule>
